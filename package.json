@@ -1,0 +1,13 @@
+{
+  "name": "site-shinedup-detailing",
+  "version": "1.0.0",
+  "description": "Shined Up Detailing — Official Website (Tampa, FL)",
+  "scripts": {
+    "build": "node build.js",
+    "start": "node server.js"
+  },
+  "devDependencies": {
+    "sharp": "^0.35.5",
+    "wrangler": "^4.151.1"
+  }
+}
