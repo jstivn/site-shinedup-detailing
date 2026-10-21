@@ -3514,7 +3514,7 @@ rgb(var(--color-border-rgb) / 1.0); --border-radius:
   });
 </script>
 
-</div><div id="shopify-section-template--28044024349019__blocks_dfPkam" class="shopify-section section-wrapper">
+</div><div id="shopify-section-template--28044024349019__blocks_dfPkam" class="shopify-section section-wrapper" style="display: none !important;">
 
 <style data-shopify>
 /* MOBILE FIX - Section content and before/after slider */
@@ -5324,14 +5324,11 @@ rgb(var(--color-border-rgb) / 1.0); --border-radius:
   .ai-detailing-services__hero-subheadline-avedkchhszws1mhiytaigenblock0b935f4cgbgwe {
     font-size: 18px;
     color: #b0b0b0;
-    margin: 0;
-    line-height: 1.5;
-    max-width: 150px;
-  filter: drop-shadow(0 4px 15px rgba(0,0,0,0.5));
+    line-height: 1.6;
+    max-width: 720px;
+    width: 100%;
     margin: 0 auto;
-    filter: drop-shadow(0 4px 20px rgba(0,0,0,0.6));
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
   }
 
   .ai-detailing-services__section-avedkchhszws1mhiytaigenblock0b935f4cgbgwe {
@@ -5355,17 +5352,22 @@ rgb(var(--color-border-rgb) / 1.0); --border-radius:
   }
 
   .ai-detailing-services__card-avedkchhszws1mhiytaigenblock0b935f4cgbgwe {
-  background-color: #2a2a2a;
-  border: 1px solid #3a3a3a;
-  border-radius: 8px;
+  background-color: #1c1c1c;
+  border: 1px solid #333333;
+  border-radius: 12px;
   padding: 32px;
   opacity: 0;
   transform: translateY(34px) scale(0.96);
   filter: blur(6px);
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   transition:
     opacity 0.45s ease,
     transform 0.55s cubic-bezier(0.22, 1, 0.36, 1),
     filter 0.45s ease,
+    border-color 0.25s ease,
     box-shadow 0.25s ease;
 }
 
@@ -5376,7 +5378,9 @@ rgb(var(--color-border-rgb) / 1.0); --border-radius:
 }
 
   .ai-detailing-services__card-avedkchhszws1mhiytaigenblock0b935f4cgbgwe:hover {
-    transform: translateY(-4px);
+    transform: translateY(-5px) scale(1.01);
+    border-color: #0284c7;
+    box-shadow: 0 12px 30px rgba(2, 132, 199, 0.25);
   }
 
   .ai-detailing-services__card-title-avedkchhszws1mhiytaigenblock0b935f4cgbgwe {
@@ -5506,9 +5510,8 @@ rgb(var(--color-border-rgb) / 1.0); --border-radius:
   }
 
   @media screen and (max-width: 768px) {
-        .ai-detailing-services-avedkchhszws1mhiytaigenblock0b935f4cgbgwe {
+    .ai-detailing-services-avedkchhszws1mhiytaigenblock0b935f4cgbgwe {
       transform: none;
-    }
     }
 
     .ai-detailing-services__hero-headline-avedkchhszws1mhiytaigenblock0b935f4cgbgwe {
@@ -5517,6 +5520,7 @@ rgb(var(--color-border-rgb) / 1.0); --border-radius:
 
     .ai-detailing-services__hero-subheadline-avedkchhszws1mhiytaigenblock0b935f4cgbgwe {
       font-size: calc(18px * 0.9);
+      max-width: 100%;
     }
 
     .ai-detailing-services__section-title-avedkchhszws1mhiytaigenblock0b935f4cgbgwe {
@@ -5586,36 +5590,51 @@ rgb(var(--color-border-rgb) / 1.0); --border-radius:
       
       <div class="ai-detailing-services__grid-avedkchhszws1mhiytaigenblock0b935f4cgbgwe">
         
-          <div class="ai-detailing-services__card-avedkchhszws1mhiytaigenblock0b935f4cgbgwe">
-            <h3 class="ai-detailing-services__card-title-avedkchhszws1mhiytaigenblock0b935f4cgbgwe">
-              Mobile Vehicle Detailing
-            </h3>
-            <p class="ai-detailing-services__card-description-avedkchhszws1mhiytaigenblock0b935f4cgbgwe">
-              Flawless gloss directly at your location. Professional, efficient, and uncompromisingly high quality.
-            </p>
-          </div>
+          <a href="mobile-detailing.html" class="ai-detailing-services__card-avedkchhszws1mhiytaigenblock0b935f4cgbgwe">
+            <div>
+              <h3 class="ai-detailing-services__card-title-avedkchhszws1mhiytaigenblock0b935f4cgbgwe">
+                Mobile Vehicle Detailing
+              </h3>
+              <p class="ai-detailing-services__card-description-avedkchhszws1mhiytaigenblock0b935f4cgbgwe">
+                Flawless gloss directly at your location across Tampa & Central Florida. Signature Full Detail ($150), deep steam extraction, carpet shampoo & protective sealant.
+              </p>
+            </div>
+            <span style="display: inline-flex; align-items: center; gap: 8px; color: #38bdf8; font-weight: 600; font-size: 14px; margin-top: 20px;">
+              View Packages & Pricing &rarr;
+            </span>
+          </a>
         
 
         
-          <div class="ai-detailing-services__card-avedkchhszws1mhiytaigenblock0b935f4cgbgwe">
-            <h3 class="ai-detailing-services__card-title-avedkchhszws1mhiytaigenblock0b935f4cgbgwe">
-              Paint Correction & Ceramic Protection
-            </h3>
-            <p class="ai-detailing-services__card-description-avedkchhszws1mhiytaigenblock0b935f4cgbgwe">
-              Precision paint correction and durable ceramic defense for long-lasting results.
-            </p>
-          </div>
+          <a href="paint-ceramic.html" class="ai-detailing-services__card-avedkchhszws1mhiytaigenblock0b935f4cgbgwe">
+            <div>
+              <h3 class="ai-detailing-services__card-title-avedkchhszws1mhiytaigenblock0b935f4cgbgwe">
+                Paint Correction & Ceramic Protection
+              </h3>
+              <p class="ai-detailing-services__card-description-avedkchhszws1mhiytaigenblock0b935f4cgbgwe">
+                Multi-stage machine compounding and polishing to eliminate swirls and scratches, paired with certified 9H ceramic coating for enduring gloss and hydrophobic armor.
+              </p>
+            </div>
+            <span style="display: inline-flex; align-items: center; gap: 8px; color: #38bdf8; font-weight: 600; font-size: 14px; margin-top: 20px;">
+              Explore Ceramic Coating &rarr;
+            </span>
+          </a>
         
 
         
-          <div class="ai-detailing-services__card-avedkchhszws1mhiytaigenblock0b935f4cgbgwe">
-            <h3 class="ai-detailing-services__card-title-avedkchhszws1mhiytaigenblock0b935f4cgbgwe">
-              Auto Glass Replacement
-            </h3>
-            <p class="ai-detailing-services__card-description-avedkchhszws1mhiytaigenblock0b935f4cgbgwe">
-              Expert replacement with OEM precision fitting and digital sensor recalibration.
-            </p>
-          </div>
+          <a href="auto-glass.html" class="ai-detailing-services__card-avedkchhszws1mhiytaigenblock0b935f4cgbgwe">
+            <div>
+              <h3 class="ai-detailing-services__card-title-avedkchhszws1mhiytaigenblock0b935f4cgbgwe">
+                Auto Glass Replacement
+              </h3>
+              <p class="ai-detailing-services__card-description-avedkchhszws1mhiytaigenblock0b935f4cgbgwe">
+                Mobile windshield replacement and chip repair with precision OEM glass fitment and integrated digital ADAS camera sensor calibration.
+              </p>
+            </div>
+            <span style="display: inline-flex; align-items: center; gap: 8px; color: #38bdf8; font-weight: 600; font-size: 14px; margin-top: 20px;">
+              Auto Glass Services &rarr;
+            </span>
+          </a>
         
 
         
@@ -5697,10 +5716,10 @@ rgb(var(--color-border-rgb) / 1.0); --border-radius:
     </div>
 
     <div class="ai-detailing-services__cta-avedkchhszws1mhiytaigenblock0b935f4cgbgwe">
-      
+      <h3 class="ai-detailing-services__cta-title-avedkchhszws1mhiytaigenblock0b935f4cgbgwe">Ready for Showroom Perfection?</h3>
       <div class="ai-detailing-services__cta-buttons-avedkchhszws1mhiytaigenblock0b935f4cgbgwe">
-        
-        
+        <a href="tel:+14073255566" class="ai-detailing-services__button-avedkchhszws1mhiytaigenblock0b935f4cgbgwe ai-detailing-services__button--primary-avedkchhszws1mhiytaigenblock0b935f4cgbgwe">Call (407) 325-5566</a>
+        <a href="https://m.me/100067075064341" target="_blank" rel="noopener" class="ai-detailing-services__button-avedkchhszws1mhiytaigenblock0b935f4cgbgwe ai-detailing-services__button--secondary-avedkchhszws1mhiytaigenblock0b935f4cgbgwe">Message on Facebook</a>
       </div>
     </div>
   </div>
